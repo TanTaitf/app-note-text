@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="330dp"
+    android:layout_height="200dp"
+    android:background="#ece6ef">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập Tiêu đề"
+        android:textSize="20sp"
+        android:id="@+id/tennote_dialog"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnok"
+        android:maxLines="1"
+        android:maxLength="20"
+        android:id="@+id/edt_tennote"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnok"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="#35ab07"
+        android:text="OK"
+        android:padding="5dp"
+        android:layout_marginBottom="27dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="64dp"
+        android:layout_marginEnd="64dp" />
+    <Button
+        android:id="@+id/btnhuy"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="#35ab07"
+        android:text="Hủy"
+        android:padding="5dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp"
+        android:layout_alignTop="@+id/btnok"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

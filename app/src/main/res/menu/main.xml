@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/save"
+        android:orderInCategory="100"
+        android:title="Save Note"
+        android:icon="@drawable/save"
+         />
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="100"
+        android:title="Close Without Save"
+        android:icon="@drawable/cancel"
+         />
+    <item
+        android:id="@+id/remis"
+        android:orderInCategory="100"
+        android:title="Remember"
+        android:icon="@drawable/notifi"
+      />
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="1"
+    android:orientation="vertical"
+    tools:context="note.media.com.note.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ListView
+        android:layout_weight="0.1"
+        android:id="@+id/listnote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="8dp"
+        android:padding="5dp"
+        android:layout_marginTop="?attr/actionBarSize">
+
+    </ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.9"
+        android:weightSum="1"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/addadView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="0.2"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6352050986417104/7427914879">
+        </com.google.android.gms.ads.AdView>
+
+        <ImageView
+            android:id="@+id/imageViewaddnote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            app:srcCompat="@drawable/addnote"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

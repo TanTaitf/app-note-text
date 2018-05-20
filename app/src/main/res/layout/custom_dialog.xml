@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="450dp"
+    android:background="#ece6ef">
+    <TextView
+        android:text="NOTE APPLICATION\nPerfect reminder"
+        android:textSize="25sp"
+        android:textColor="#333d3d"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txttitleinfo"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:text="Hi you ! \nWellcom to Note App \n You send Ask
+to Email: noteText@gmail.com.vn "
+        android:id="@+id/txtinfo"
+        android:textSize="23sp"
+        android:textColor="#333d3d"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="#35ab07"
+        android:text="OK"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
