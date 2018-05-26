@@ -1,5 +1,5 @@
-# app-note-text
 <img src="https://github.com/favicon.ico"> 
+# app-note-text
 
 # SQLiteDatabase
 [SQLiteDatabase Document](https://developer.android.com/reference/android/database/sqlite/SQLiteDatabase)
