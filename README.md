@@ -1,4 +1,5 @@
-<img src="https://github.com/favicon.ico"> 
+<img src="https://github.com/favicon.ico">
+
 # app-note-text
 
 # SQLiteDatabase
